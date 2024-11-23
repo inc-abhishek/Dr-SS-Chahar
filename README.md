@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+Dr. SS Chahar Pre-Medical Centre
+A professional website for Dr. SS Chahar Pre-Medical Centre, offering pre-medical services for Armed Forces candidates. The website includes features such as service information, contact details, and appointment booking.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Home Page: Engaging and informative homepage with a background image and call to action.
+About Us Section: Describes the mission and services offered by the pre-medical center.
+Services Section: List of services provided by the center.
+Address Section: Contains the physical address, phone number, email, and social media links.
+Footer: Contains contact details, social media links, copyright info, and developer credits.
+Appointment Booking: A call-to-action button to book an appointment with the center.
+Technologies Used
+Frontend:
+ReactJS
+Tailwind CSS
+React Icons for social media icons
+Responsive Design: Tailwind CSS makes the website fully responsive on all screen sizes.
+Image Handling: The homepage features a custom background image for visual appeal.
 
-## Available Scripts
 
-In the project directory, you can run:
+File Structure
+scss
+Copy code
+/src
+  /assets
+    - 4990224.jpg  (background image)
+  /components
+    - Navbar.js       (Navbar component)
+    - Home.js         (Home page component)
+    - About.js        (About section component)
+    - Services.js     (Services section component)
+    - Address.js      (Address section component)
+    - Footer.js       (Footer component)
+  App.js              (Main App component)
+  index.js            (Entry point of the application)
+  /tailwind.config.js (Tailwind CSS configuration)
+  /package.json       (Project dependencies and scripts)
+Social Media Links
+Facebook
+Instagram
+YouTube
+Contributing
+If you want to contribute to this project:
 
-### `npm start`
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Make your changes and commit them (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-name).
+Create a new Pull Request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Credits
+Designed and developed by Abhishek Pal.
+Special thanks to Dr. SS Chahar Pre-Medical Centre for the content and inspiration behind the project.
