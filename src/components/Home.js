@@ -25,9 +25,11 @@ function Home() {
         </p>
 
         {/* Button Section */}
-        <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md mt-4 transition duration-300 w-3/4 sm:w-auto">
-          Book an Appointment!
-        </button>
+        <div className="mt-4 w-full sm:w-auto">
+          <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 w-full sm:w-auto">
+            Book an Appointment!
+          </button>
+        </div>
       </div>
 
       {/* Cards Section */}

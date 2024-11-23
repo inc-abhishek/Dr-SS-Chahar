@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
-import Address from "./components/Address";
+import Footer from "./components/Footer"; // Add this line
+
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
       <div id="services">
         <Services />
       </div>
-      <div id="address">
-        <Address />
-      </div>
+
+      {/* Footer at the bottom */}
+      <Footer />
     </div>
   );
 }
