@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
-import Footer from "./components/Footer"; // Add this line
-
+import OurSuccessStories from "./components/OurSuccessStories"; // Import the new component
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +21,11 @@ function App() {
       </div>
       <div id="services">
         <Services />
+      </div>
+
+      {/* Add Our Success Stories section below Services */}
+      <div id="success-stories">
+        <OurSuccessStories />
       </div>
 
       {/* Footer at the bottom */}

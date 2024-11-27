@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaMapMarkerAlt } from "react-icons/
 
 function Footer() {
   return (
-    <footer className="bg-green-800 text-white py-6">
+    <footer id="address" className="bg-green-800 text-white py-6" style={{ backgroundImage: "url('/path/to/camoflouage.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="container mx-auto text-center space-y-4">
         {/* Logo and Name */}
         <h2 className="text-xl font-bold">Dr. SS Chahar Pre-Medical Centre</h2>
@@ -25,7 +25,7 @@ function Footer() {
         <div className="flex justify-center space-x-6 text-2xl mt-4">
           {/* Facebook */}
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/p/S-S-chahar-Army-physical-and-medical-center-100063951284602/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition duration-300"
@@ -34,7 +34,7 @@ function Footer() {
           </a>
           {/* Instagram */}
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/dr.ss_chahar/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-400 transition duration-300"
@@ -43,7 +43,7 @@ function Footer() {
           </a>
           {/* YouTube */}
           <a
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/@dr.sschaharpremedicalcentre"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-red-400 transition duration-300"

@@ -8,11 +8,9 @@ function About() {
         {/* Left Text Section */}
         <div>
           <h2 className="text-green-800 text-3xl font-bold mb-4">
-            About Us
           </h2>
-          <p className="text-gray-700 text-xl leading-relaxed">
-          Welcome to Dr. S.S. Chahar Pre Medical Centre, your trusted partner in preparing for a successful career in the defense services and medical fields. Located in Agra, we specialize in providing comprehensive pre-medical assessments and health evaluations tailored for aspiring candidates of the Army, Airforce, Navy, SSC GD, NDA, and OTA.
-          </p>
+          <p className="text-gray-700 text-2xl leading-relaxed">
+          डॉ. एस.एस. चाहर प्री मेडिकल सेंटर में आपका स्वागत है, जो रक्षा सेवाओं और चिकित्सा क्षेत्रों में सफल करियर की तैयारी के लिए आपका विश्वसनीय साथी है। आगरा में स्थित, हम सेना, वायु सेना, नौसेना, एसएससी जीडी, एनडीए और ओटीए के इच्छुक उम्मीदवारों के लिए विशेष रूप से तैयार की गई व्यापक प्री-मेडिकल आकलन और स्वास्थ्य मूल्यांकन प्रदान करने में विशेषज्ञता रखते हैं।          </p>
         </div>
 
         {/* Right Image Section */}

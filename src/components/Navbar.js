@@ -5,7 +5,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // For toggling the menu visibility
 
   return (
-    <nav className="bg-green-800 p-4 shadow-lg">
+    <nav className="bg-green-800 p-4 shadow-lg fixed top-0 left-0 w-full z-20">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center">
@@ -80,7 +80,7 @@ function Navbar() {
           </li>
           <li className="text-center md:text-left">
             <a
-              href="#address"
+              href="#address"  // Link updated to target the footer section
               className="hover:text-green-400 font-semibold tracking-wide transition-all duration-300 block py-2 md:py-0"
             >
               Address
